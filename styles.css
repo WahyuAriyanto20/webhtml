@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ff00;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #00ff00;
+}
+
+main, footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+section {
+  margin: 40px;
+}
+
+.featured-gadget, .gadget-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  font-size: 36px;
+  color: #00ff00;
+}
+
+.reviews, .news, .contact {
+  margin-top: 40px;
+}
+
+form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+form button {
+  background-color: #00ff00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00cc00;
+}
+
+.review, .news-item {
+  margin-bottom: 30px;
+}
